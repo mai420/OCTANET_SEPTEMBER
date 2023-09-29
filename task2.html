@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>To-Do List with Priorities, Deadlines, and Urgency</title>
+</head>
+<body>
+<div class="container">
+    <h1 style="color: white;">To-Do List with Priorities, Deadlines, and Urgency</h1>
+    <input type="text" id="taskInput" placeholder="New task..." />
+    <select id="priorityInput">
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+    </select>
+    <select id="urgencyInput">
+        <option value="urgent">Urgent</option>
+        <option value="not urgent">Not urgent</option>
+    </select>
+    <input type="date" id="deadlineInput" />
+    <button id="addTask">Add</button>
+    <br>
+    <br>
+    <ul id="taskList">
+        <!-- Existing tasks here -->
+    </ul>
+</div>
+<script src="javas.js"></script>
+</body>
+</html>

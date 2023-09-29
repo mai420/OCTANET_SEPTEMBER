@@ -1,0 +1,105 @@
+ /* styles.css */
+
+ .container {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1B998B, #0E153A);
+    padding: 10px;
+}
+
+h1 {
+    color: #333;
+}
+
+#taskInput {
+    width: 15%;
+}
+
+#taskInput, #priorityInput, #urgencyInput, #deadlineInput {
+    background-color: white;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#addTask {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#addTask:hover {
+    background-color: #0056b3;
+}
+
+.task-item {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.high-priority {
+    background-color: #ff6b6b; /* Red for high priority */
+}
+
+.medium-priority {
+    background-color: #DAA520; /* Yellow for medium priority */
+}
+
+.low-priority {
+    background-color: #50C878; /* Green for low priority */
+}
+
+.task-text {
+    color: white;
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.task-checkbox {
+    transform: scale(2.0);
+}
+
+.delete-button {
+    transform: scale(1.5);
+    background-color: #d1190e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: orange;
+}
+
+/* Styles for urgency dropdown */
+.task-urgency {
+    background-color: white;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* Styles for deadline input */
+.task-deadline {
+    background-color: white;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
